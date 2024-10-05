@@ -11,13 +11,13 @@ To compile and run this project, you need:
 - MySQL C Connector (6.1 or later)
 - MySQL server
 
-##MySQL Setup
+## MySQL Setup
 
 - Make sure MySQL server is installed and running.
 - Create a database and fill the related variables in 'hospitalSys.c' in src directory.
 - Create tables 'doctor' and 'patient' according to structures in header files 'doctor.h' and 'patient.h'.
 
- ##Compile And Run
+ ## Compile And Run
  - Create a target folder.
  - Ensure that the mysql.h and MySQL library paths are correctly set in the Makefile
  - Execute make command to compile.
